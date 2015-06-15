@@ -1,23 +1,22 @@
+
   ul li {
 	 display: inline;
-	 padding-right: 10px;
+	 padding-right: 5px;
 	 color:#555555;
-    width: 60px;
+   width: 60px;
+
 }
   h1 {
-    font-family: Verdana;
+    font-family: DIN Alternate;
     font-size: 2.5em;
+    color: #000000
   }
   h2{
-    font-size: 2em;
-  }
-  img {
-    border:5px black solid;
+    font-size: 2.3em;
   }
 
   .header {
   		padding: 10px 10px 10px 10px;
-  		background-color: #444444;
   		text-align: center;
       margin: 0px 0px 0px 0px;
       color: #ffffff;
@@ -26,8 +25,10 @@
   .main-content {
   		text-align: center;
       padding: 5px 0px 10px 0;
-      font-family: Arial;
+      font-family: DIN Alternate;
       padding-bottom: 15px;
+      width: 500px;
+      margin: 15px auto 15px auto;
   	}
   #menu ul {
       display: inline;
@@ -42,8 +43,12 @@
       background-color: #ffffff;
       text-decoration: none;
       text-align: center; 
-      padding: 15px;
+      padding: 5px;
     }
   #menu a:hover {
-      background-color: #aaaaaa;
+      background-color: #000000;
+      color: #ffffff;
+    }
+    .pictures img {
+      padding: 10px 0px 10px 0px;
     }
