@@ -10,9 +10,19 @@
     font-family: DIN Alternate;
     font-size: 2.5em;
     color: #000000
+
   }
   h2{
     font-size: 2.3em;
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+    font-family: DIN Alternate;
+  }
+  p {
+    text-align: center;
+    font-family: Courier new;
   }
 
   .header {
@@ -23,7 +33,7 @@
 
   	}
   .main-content {
-  		text-align: center;
+  
       padding: 5px 0px 10px 0;
       font-family: DIN Alternate;
       padding-bottom: 15px;
@@ -51,4 +61,41 @@
     }
     .pictures img {
       padding: 10px 0px 10px 0px;
+      text-align: center;
     }
+    label {
+  display: block;
+  font-family: Courier new;
+  color: #000000;
+}
+
+input {
+  width: 250px;
+  display: block;
+  font-size: 20px; 
+}
+
+input[type='submit'] {
+  width: 125px;
+  font-size: 25px;
+  color: #000000;
+ 
+}
+
+textarea {
+  width: 250px;
+  height: 100px;
+  border:2px #000000 solid;
+}
+input[type='text']{
+  border:2px #000000 solid;
+}
+.messagebox img{
+  float: right;
+  display: inline-block;
+}
+.contact-info {
+  text-align: center;
+  
+  font-size: 15px;
+}

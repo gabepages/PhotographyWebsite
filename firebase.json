@@ -1,0 +1,9 @@
+{
+  "firebase": "laurenmcdougallphotography",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
