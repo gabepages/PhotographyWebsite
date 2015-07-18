@@ -17,15 +17,9 @@
     font-size: 2.3em;
     text-align: center;
     text-shadow: 1px 1px 1px #555555;
-  }
-  h3{
-    text-align: center;
     font-family: DIN Alternate;
   }
-  p {
-    text-align: center;
-    font-family: Courier new;
-  }
+  
 
   .header {
   		padding: 10px 10px 10px 10px;
@@ -217,3 +211,16 @@ span {
 .flickr:hover{
   background-color:#FF0084;
 }
+.blog h3{
+  text-align: center;
+  font-family: DIN Alternate;
+  text-shadow:1px 1px 1px #888;
+}
+.blog p{
+  text-align: center;
+  font-family: Courier new;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: auto, auto;
+}
+  
