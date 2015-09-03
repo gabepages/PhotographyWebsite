@@ -223,4 +223,8 @@ span {
   padding: 10px;
   margin: auto, auto;
 }
+.pictures img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
   
